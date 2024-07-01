@@ -1,0 +1,20 @@
+{
+  "name": "rulesets",
+  "description": "GitHub Rulesets Pallete",
+  "license": "MIT",
+  "packageManager": "pnpm@9.4.0",
+  "private": true,
+  "authors": {
+    "name": "pulsate-dev",
+    "email": "info@pulsate.dev"
+  },
+  "scripts": {
+    "format": "biome format --write ./rulesets",
+    "format:check": "biome format ./rulesets",
+    "postinstall": "lefthook install"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "lefthook": "^1.6.17"
+  }
+}

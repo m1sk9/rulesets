@@ -1,0 +1,14 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.8.2/schema.json",
+  "linter": {
+    "enabled": false
+  },
+  "formatter": {
+    "indentStyle": "space"
+  },
+  "overrides": [
+    {
+      "include": ["node_modules/**"]
+    }
+  ]
+}

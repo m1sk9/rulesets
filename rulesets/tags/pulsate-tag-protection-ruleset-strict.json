@@ -1,0 +1,26 @@
+{
+  "id": 1071436,
+  "name": "Pulsate Tag Protection Ruleset",
+  "target": "tag",
+  "source_type": "Repository",
+  "source": "pulsate-dev/rulesets",
+  "enforcement": "disabled",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": ["~ALL"]
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    },
+    {
+      "type": "required_signatures"
+    }
+  ],
+  "bypass_actors": []
+}

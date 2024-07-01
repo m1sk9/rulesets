@@ -1,0 +1,23 @@
+{
+  "id": 1071392,
+  "name": "Pulsate Default Branch Protection Ruleset - Strict",
+  "target": "branch",
+  "source_type": "Repository",
+  "source": "pulsate-dev/rulesets",
+  "enforcement": "disabled",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": ["~DEFAULT_BRANCH"]
+    }
+  },
+  "rules": [
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
+    }
+  ],
+  "bypass_actors": []
+}
