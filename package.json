@@ -2,7 +2,7 @@
   "name": "rulesets",
   "description": "GitHub Rulesets Pallete",
   "license": "MIT",
-  "packageManager": "pnpm@9.6.0",
+  "packageManager": "pnpm@9.7.0",
   "private": true,
   "authors": {
     "name": "pulsate-dev",
