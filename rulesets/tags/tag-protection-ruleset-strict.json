@@ -1,9 +1,9 @@
 {
   "id": 1071436,
-  "name": "Pulsate Tag Protection Ruleset",
+  "name": "Tag Protection Ruleset",
   "target": "tag",
   "source_type": "Repository",
-  "source": "pulsate-dev/rulesets",
+  "source": "m1sk9/rulesets",
   "enforcement": "disabled",
   "conditions": {
     "ref_name": {

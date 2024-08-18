@@ -1,9 +1,9 @@
 {
   "id": 1071392,
-  "name": "Pulsate Default Branch Protection Ruleset - Strict",
+  "name": "Default Branch Protection Ruleset - Strict",
   "target": "branch",
   "source_type": "Repository",
-  "source": "pulsate-dev/rulesets",
+  "source": "m1sk9/rulesets",
   "enforcement": "disabled",
   "conditions": {
     "ref_name": {

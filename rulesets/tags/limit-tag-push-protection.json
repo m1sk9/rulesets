@@ -1,9 +1,9 @@
 {
   "id": 1071459,
-  "name": "Pulsate Limit Tag Push Protection",
+  "name": "Limit Tag Push Protection",
   "target": "tag",
   "source_type": "Repository",
-  "source": "pulsate-dev/rulesets",
+  "source": "m1sk9/rulesets",
   "enforcement": "disabled",
   "conditions": {
     "ref_name": {
